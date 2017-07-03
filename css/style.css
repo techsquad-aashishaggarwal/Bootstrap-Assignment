@@ -1,0 +1,139 @@
+
+/*Applying style to img tag which are under class:col-sm-3*/
+.col-sm-3 img
+{
+	width:240px;
+	height:200px;
+}
+
+/*Applying style to img tag which are under class:col-sm-6*/
+.col-sm-6 img
+{
+	width:500px;
+	height:250px;
+}
+
+/* Applying styling to the body area,here the Google font style is also applied*/
+body
+{
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+ 	font-family: 'Bree Serif', serif;
+}
+
+/*Applying Global style for ul*/
+ul
+{
+		margin:0;
+		padding:0;
+}
+
+/*Applying Global style for button_1 class,all the buttons will have the same styles*/
+.button_1
+{
+	height:38px;
+	background:#e8591d;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#ffffff;
+}
+
+/*Applying style to the showcase id*/
+#showcase
+{
+	min-height:400px;
+	background:url('../img/showcase.jpg') no-repeat;
+	text-align:center;
+	color:#ffffff;
+}
+
+/*Applying style to the h2 tag of showcase id*/
+#showcase h2
+{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+
+/*Applying style to the p tag of showcase id*/
+#showcase p
+{
+	font-size:20px;
+}
+
+/*Applying style to the newsletter id*/
+#newsletter
+{
+	padding:15px;
+	color:#ffffff;
+	background:#35424a;
+}
+
+
+/*Applying style to the input tag of newsletter id*/
+#newsletter input[type="email"]
+{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+/*Applying style to the pictures id*/
+#pictures
+{
+	margin-top:20px;
+}
+
+
+
+/*Applying style to the contact id*/
+#contact
+{
+	padding:15px;
+	color:#ffffff;
+	background:#35424a;
+}
+
+/*Applying style to the form tag of contact id*/
+#contact form
+{
+	float:left;
+}
+
+/*Applying style to the contact_details id of the contact id*/
+#contact #contact_details
+{
+	float:right;
+	margin-top:15px;
+}
+
+/*Applying style to the footer tag*/
+
+#facebook
+{
+	font-size:24px;
+	color:#002e4d;
+}
+
+
+#twitter
+{
+	font-size:24px;
+	color:#002e4d;
+}
+
+footer
+{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align:center;
+}
+
+
+
+
